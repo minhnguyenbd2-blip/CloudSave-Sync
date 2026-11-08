@@ -1,0 +1,41 @@
+# ============================================================================
+# STRICT USER-ONLY GITHUB REPOSITORY FILTER
+# Blocks all developer workspace files, source code, scripts, and >100MB binaries
+# Only README.md and 02_User_Official_Release metadata/docs are tracked in Git.
+# Large binaries (CloudSaveSync-Setup.exe) are uploaded via GitHub Releases.
+# ============================================================================
+
+# 1. Block Developer Workspace & Root Dev Tooling Completely
+01_Developer_Workspace/
+.aistudio/
+node_modules/
+dist/
+build/
+coverage/
+package.json
+package-lock.json
+*.bat
+*.ps1
+*.vbs
+*.cmd
+.env*
+*.log
+.DS_Store
+Thumbs.db
+
+# 2. Block Large Binaries (>100MB) & Portable Runtime Folder from Git Tree
+# (Uploaded separately to GitHub Releases via `gh release upload --clobber`)
+*.exe
+*.zip
+*.tar.gz
+02_User_Official_Release/*.exe
+02_User_Official_Release/*.zip
+02_User_Official_Release/*.cmd
+02_User_Official_Release/github-release/*.exe
+02_User_Official_Release/CloudSaveSync-Portable/
+
+# 3. Block Local User Runtime Data & Ephemeral Session State
+02_User_Official_Release/Users_Save_Vault/
+02_User_Official_Release/Snapshots_Archive/
+02_User_Official_Release/active_session.json
+02_User_Official_Release/connected_users.json
