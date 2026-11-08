@@ -1,0 +1,49 @@
+========================================================================================
+ CLOUDSAVE SYNC STUDIO (BẢN CHÍNH THỨC DÀNH CHO NGƯỜI DÙNG)
+ Tự động bảo vệ và đồng bộ Save Game PC qua Google Drive · Chống mất file Save 100%
+========================================================================================
+
+Xin chào game thủ! Đây là thư mục phân phối chính thức của CloudSave Sync Studio.
+Tất cả các tệp tại đây đã được đóng gói sẵn sàng để bạn sử dụng ngay mà không cần cài đặt môi trường lập trình nào.
+
+----------------------------------------------------------------------------------------
+I. CÁCH CÀI ĐẶT NHANH (KHUYÊN DÙNG CHO MÁY TÍNH CÁ NHÂN & LAPTOP)
+----------------------------------------------------------------------------------------
+1. Nhấp đúp chuột vào file:
+   👉 "CloudSaveSync-Setup.exe" (hoặc "CloudSaveSync-Setup-V1.0.0-Win11-x64.exe")
+
+2. Trình cài đặt Windows Setup Wizard sẽ xuất hiện:
+   - Bước 1: Xem thỏa thuận điều khoản sử dụng -> Chọn "Tôi đồng ý".
+   - Bước 2: Chọn thư mục cài đặt (Mặc định: %LOCALAPPDATA%\CloudSaveSync).
+   - Bước 3: Tích chọn "Tạo biểu tượng ngoài Desktop" & "Tự khởi động cùng Windows".
+   - Bước 4: Nhấn "Cài đặt (Install)" và chờ quá trình giải nén hoàn tất (10 - 15 giây).
+   - Bước 5: Nhấn "Hoàn tất" để mở ứng dụng ngay lập tức!
+
+----------------------------------------------------------------------------------------
+II. CÁCH DÙNG BẢN PORTABLE (KHÔNG CẦN CÀI ĐẶT - THÍCH HỢP QUÁN NET HOẶC MÁY TIỆM)
+----------------------------------------------------------------------------------------
+1. Mở thư mục con:
+   👉 "CloudSaveSync-Portable"
+2. Nhấp đúp chuột chạy:
+   👉 "CloudSaveSync.exe"
+Ứng dụng sẽ khởi chạy trực tiếp với đầy đủ tính năng mà không can thiệp sâu vào Registry của hệ thống máy tính.
+
+----------------------------------------------------------------------------------------
+III. CÁC TÍNH NĂNG NỔI BẬT DÀNH CHO BẠN
+----------------------------------------------------------------------------------------
+✓ Tự động nhận diện phần cứng máy tính thực tế (CPU, GPU, RAM, Windows 10/11 x64).
+✓ Tự động phát hiện vị trí lưu Save Game của hơn 50+ tựa game phổ biến (Steam, Epic, GOG, Crack...).
+✓ Tự động sao lưu tiến trình chơi game lên Google Drive cá nhân của bạn mỗi khi bạn tắt game.
+✓ Mã hóa dữ liệu Save bằng thuật toán cấp quân sự AES-256-GCM bảo mật tuyệt đối.
+✓ Lịch sử sao lưu Snapshot giúp bạn có thể quay lại bất kỳ mốc chơi game nào nếu file save bị lỗi hoặc mod bị crash.
+✓ Chế độ chạy ngầm System Tray: bấm nút tắt (X) ở góc phải màn hình, bạn có thể chọn "Chạy Nền" để ứng dụng âm thầm bảo vệ Save Game mà không tốn tài nguyên máy tính.
+
+----------------------------------------------------------------------------------------
+IV. CÁC THƯ MỤC DỮ LIỆU
+----------------------------------------------------------------------------------------
+- Users_Save_Vault/   : Kho chứa file save game của bạn trên máy tính.
+- Snapshots_Archive/  : Kho lưu trữ các bản snapshot nén dự phòng.
+- github-release/     : Gói phát hành bản cài đặt đã kiểm tra mã băm bảo mật SHA-256.
+
+Chúc bạn có những giờ phút trải nghiệm chơi game tuyệt vời cùng CloudSave Sync Studio!
+========================================================================================

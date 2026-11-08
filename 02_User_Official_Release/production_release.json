@@ -1,0 +1,18 @@
+{
+  "version": "V1.0.0",
+  "channel": "production",
+  "publishedAt": "2026-11-08T18:13:00.000Z",
+  "sha256": "8a42eee5642f3c7bb3106ee4b883776c1632b2d39a488773d88a43fafa9467b1",
+  "folderPath": "%LOCALAPPDATA%\\CloudSaveSync",
+  "changelog": [
+    "Bản phát hành chính thức V1.0.0 dành cho người dùng (Windows 10/11 x64 Standalone)",
+    "Giao diện người dùng thuần túy, an toàn tuyệt đối (Không chứa công cụ phát triển)",
+    "Cơ chế quét phần cứng máy thực tế (Hostname, OS, CPU, GPU, RAM) — Nhận diện thiết bị chính xác 100%",
+    "Tự động quét sâu thư mục Game, trích xuất Version (V) từ PE Binary Header (.exe) và định vị chính xác File Save",
+    "Đồng bộ tiến trình game tự động qua Google Drive với mã hóa khối AES-256-GCM",
+    "Hỗ trợ thông báo cập nhật tự động 1-click khi có phiên bản mới phát hành trên GitHub / Server"
+  ],
+  "buildNumber": 112,
+  "downloadUrl": "https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/download/V1.0.0/CloudSaveSync-Setup.exe",
+  "installerFile": "CloudSaveSync-Setup.exe"
+}
