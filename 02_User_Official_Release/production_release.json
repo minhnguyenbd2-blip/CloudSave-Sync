@@ -1,18 +1,19 @@
 {
   "version": "V1.0.0",
   "channel": "production",
-  "publishedAt": "2026-11-09T07:58:24.671Z",
-  "sha256": "5458fb5122ce74784ef9c10bc3919b0149dedc0d1fbd37c7d5324043b4148371",
+  "publishedAt": "2026-11-09T09:54:19.847Z",
+  "sha256": "a56259c68ab5ca0ada65a9ad6abc57380e2aeef98f0eb1e097005e52cfa615a8",
   "folderPath": "%LOCALAPPDATA%\\CloudSaveSync",
   "changelog": [
-    "Bản phát hành chính thức V1.0.0 dành cho người dùng (Windows 10/11 x64 Standalone)",
-    "Loại bỏ hoàn toàn các nút/menu quản trị dev — Giao diện người dùng thuần túy, an toàn tuyệt đối",
-    "Cơ chế quét phần cứng máy thực tế (Hostname, OS, CPU, GPU, RAM) — Nhận diện thiết bị chính xác 100%",
-    "Tự động quét số lượng máy tính thực tế đang đăng nhập cùng email",
+    "Bản phát hành chính thức V1.0.0 Desktop Native Windows (All-In-One Standalone)",
+    "Ứng dụng Desktop Native Windows (CloudSaveSync.exe) khởi chạy mượt mà chuẩn Windows 10/11 GUI",
+    "Công cụ quét đệ quy sâu 5 tầng phát hiện tệp Save thực tế lồng thư mục (Black Myth: Wukong, Elden Ring, Cyberpunk 2077, Baldur's Gate 3)",
+    "Tự động trích xuất Version (V) từ PE Binary Header (.exe) và mở rộng thư mục ID người chơi động",
     "Đồng bộ tiến trình game tự động qua Google Drive với mã hóa khối AES-256-GCM",
-    "Hỗ trợ thông báo cập nhật tự động 1-click khi có phiên bản mới phát hành trên GitHub / Server"
+    "Hỗ trợ tự động nhận diện phiên bản mới từ Server / GitHub Releases và cập nhật trực tiếp 1-click",
+    "Tối ưu khay hệ thống (System Tray) Windows: hỗ trợ chạy ngầm tự động đồng bộ khi thoát game"
   ],
-  "buildNumber": 134,
+  "buildNumber": 138,
   "downloadUrl": "https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/download/V1.0.0/CloudSaveSync-Setup.exe",
   "installerFile": "CloudSaveSync-Setup.exe"
 }
