@@ -3,8 +3,8 @@
 **Tự động đồng bộ Save Game PC qua Google Drive · Bảo vệ dữ liệu chơi game đa thiết bị**
 
 ## 📦 Tải Về Trực Tiếp Cho Windows (1 File Cài Đặt Duy Nhất)
-- **[Tải CloudSaveSync-Setup.exe (Khuyên Dùng)](https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/download/V1.0.0/CloudSaveSync-Setup.exe)** (184.9 MB)
-- **[Tải CloudSaveSync-Setup-V1.0.0-Win11-x64.exe](https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/download/V1.0.0/CloudSaveSync-Setup-V1.0.0-Win11-x64.exe)** (184.9 MB)
+- **[Tải CloudSaveSync-Setup.exe (Khuyên Dùng)](https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/download/V1.0.0/CloudSaveSync-Setup.exe)** (185.0 MB)
+- **[Tải CloudSaveSync-Setup-V1.0.0-Win11-x64.exe](https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/download/V1.0.0/CloudSaveSync-Setup-V1.0.0-Win11-x64.exe)** (185.0 MB)
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## 🔒 Kiểm Tra Toàn Vẹn Tệp Tin (SHA-256)
 ```
-8a42eee5642f3c7bb3106ee4b883776c1632b2d39a488773d88a43fafa9467b1  CloudSaveSync-Setup.exe
+cbe5a13017200e7365f5b7471c69fa3daa36bb2d32a7b398a13688836c21849a  CloudSaveSync-Setup.exe
 ```
 
 ## 🚀 Hướng Dẫn Cài Đặt Cho Người Dùng
