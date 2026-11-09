@@ -54,19 +54,21 @@ Khi chơi game trên nhiều thiết bị (chẳng hạn như giữa **PC Gaming
 
 ---
 
-## 2. 📸 Giao Diện Ứng Dụng Thực Tế
+## 2. 🖥️ Kiến Trúc Giao Diện Ứng Dụng Native Desktop
 
-<p align="center">
-  <img src="02_User_Official_Release/screenshots/app_main_ui.jpg" alt="CloudSave Sync Studio - Giao diện Thư Viện Game & Trạng Thái Đồng Bộ" width="95%" />
-  <br />
-  <em>Giao diện chính: Theo dõi tình trạng Save Game đa thiết bị (PC Gaming vs Laptop ROG), tình trạng Cloud Vault, Snapshots và phát hiện xung đột thời gian thực.</em>
-</p>
+CloudSave Sync Studio hoạt động dưới dạng **ứng dụng Windows Native Desktop độc lập** với giao diện tối giản phong cách Flagship (Obsidian Dark Theme, đường nét sắc sảo, animation 60fps mượt mà, hoàn toàn không phụ thuộc trình duyệt bên ngoài):
 
-<p align="center">
-  <img src="02_User_Official_Release/screenshots/system_settings.jpg" alt="CloudSave Sync Studio - Cài Đặt Hệ Thống & Quản Lý Phần Cứng" width="60%" />
-  <br />
-  <em>Cài đặt hệ thống: Trình quản lý bộ cài đặt Windows trọn gói, tài khoản Google Drive cá nhân, thông số phần cứng thực và chế độ chạy ngầm System Tray.</em>
-</p>
+```mermaid
+graph TD
+    subgraph UI["CloudSave Sync Studio — Giao Diện Native Desktop"]
+        NAV["Thanh Điều Khiển Minimalist<br/>(Thư Viện • Cloud Vault • Lịch Sử Snapshots)"]
+        SIDEBAR["Quản Lý Thư Viện Game<br/>• Quét thư mục tự động trên đĩa<br/>• Nhận diện Version V từ PE Header<br/>• Quản lý danh mục thư mục kiểm tra"]
+        MAIN["Khung Hiển Thị & Thao Tác Trung Tâm<br/>• Artwork & Metadata chuẩn Steam CDN<br/>• Khởi chạy trực tiếp (Launch Game)<br/>• Nút Đồng Bộ 1-Click (Sync Now)<br/>• Bảng so sánh Save Local vs Cloud"]
+        STATUS["Hệ Thống Giám Sát & An Toàn<br/>• Nhận diện phần cứng máy thực tế<br/>• Cảnh báo xung đột thời gian thực<br/>• Khôi phục Snapshot điểm lưu an toàn"]
+    end
+    UI --> ENGINE["Engine Đồng Bộ Hai Chiều & Mã Hóa AES-256-GCM"]
+    ENGINE --> DRIVE["Google Drive Cloud Vault Cá Nhân (Zero-Knowledge)"]
+```
 
 ---
 
@@ -307,9 +309,6 @@ Dự án tuân thủ nghiêm ngặt nguyên tắc phân tách môi trường ph�
 ```text
 CloudSave-Sync/
 ├── 📁 02_User_Official_Release/                # Thư mục phát hành chính thức dành cho người dùng
-│   ├── 📁 screenshots/                        # Ảnh chụp màn hình giao diện thực tế
-│   │   ├── app_main_ui.jpg                    # Ảnh giao diện thư viện game và đồng bộ
-│   │   └── system_settings.jpg                # Ảnh giao diện cài đặt hệ thống & phần cứng
 │   ├── 📁 github-release/                     # Gói phân phối GitHub Release
 │   │   ├── RELEASE_NOTES.md                   # Ghi chú phát hành chi tiết từng phiên bản
 │   │   └── SHA256SUMS.txt                     # Mã băm SHA-256 đối soát toàn vẹn
