@@ -82,8 +82,8 @@ Khi chơi game trên nhiều thiết bị (chẳng hạn như giữa **PC Gaming
 
 ### 🔒 Mã Kiểm Tra Toàn Vẹn Tệp Tin (SHA-256 Checksum)
 ```text
-8a42eee5642f3c7bb3106ee4b883776c1632b2d39a488773d88a43fafa9467b1 *CloudSaveSync-Setup.exe
-8a42eee5642f3c7bb3106ee4b883776c1632b2d39a488773d88a43fafa9467b1 *CloudSaveSync-Setup-V1.0.0-Win11-x64.exe
+cbe5a13017200e7365f5b7471c69fa3daa36bb2d32a7b398a13688836c21849a *CloudSaveSync-Setup.exe
+cbe5a13017200e7365f5b7471c69fa3daa36bb2d32a7b398a13688836c21849a *CloudSaveSync-Setup-V1.0.0-Win11-x64.exe
 ```
 
 ### 🚀 Hướng Dẫn Cài Đặt & Khởi Chạy
