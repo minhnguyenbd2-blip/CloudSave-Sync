@@ -78,14 +78,14 @@ graph TD
 
 | Gói Phân Phối Chính Thức | Dung Lượng | Mô Tả Kỹ Thuật | Liên Kết Tải Trực Tiếp |
 | :--- | :---: | :--- | :---: |
-| **`CloudSaveSync-Setup.exe`** | `~184.9 MB` | **Trình cài đặt Standalone Wizard (Khuyên Dùng)** — Tự động cập nhật | [**Tải Bản Mới Nhất Tại GitHub Releases**](https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/latest/download/CloudSaveSync-Setup.exe) |
-| **`CloudSaveSync-Setup-V1.0.0-Win11-x64.exe`** | `~184.9 MB` | Bản cài đặt đóng dấu phiên bản chính thức `V1.0.0` | [**Tải Bản V1.0.0 Đóng Dấu**](https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/download/V1.0.0/CloudSaveSync-Setup-V1.0.0-Win11-x64.exe) |
+| **`CloudSaveSync-Setup.exe`** | `~185.0 MB` | **Trình cài đặt Standalone Wizard (Khuyên Dùng)** — Tự động cập nhật | [**Tải Bản Mới Nhất Tại GitHub Releases**](https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/latest/download/CloudSaveSync-Setup.exe) |
+| **`CloudSaveSync-Setup-V1.0.0-Win11-x64.exe`** | `~185.0 MB` | Bản cài đặt đóng dấu phiên bản chính thức `V1.0.0` | [**Tải Bản V1.0.0 Đóng Dấu**](https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/download/V1.0.0/CloudSaveSync-Setup-V1.0.0-Win11-x64.exe) |
 | **`SHA256SUMS.txt`** | `199 B` | Bảng mã băm mật mã học SHA-256 đối soát toàn vẹn | [**Tải SHA256SUMS.txt**](https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/download/V1.0.0/SHA256SUMS.txt) |
 
 ### 🔒 Mã Kiểm Tra Toàn Vẹn Tệp Tin (SHA-256 Checksum)
 ```text
-cbe5a13017200e7365f5b7471c69fa3daa36bb2d32a7b398a13688836c21849a *CloudSaveSync-Setup.exe
-cbe5a13017200e7365f5b7471c69fa3daa36bb2d32a7b398a13688836c21849a *CloudSaveSync-Setup-V1.0.0-Win11-x64.exe
+5458fb5122ce74784ef9c10bc3919b0149dedc0d1fbd37c7d5324043b4148371 *CloudSaveSync-Setup.exe
+5458fb5122ce74784ef9c10bc3919b0149dedc0d1fbd37c7d5324043b4148371 *CloudSaveSync-Setup-V1.0.0-Win11-x64.exe
 ```
 
 ### 🚀 Hướng Dẫn Cài Đặt & Khởi Chạy

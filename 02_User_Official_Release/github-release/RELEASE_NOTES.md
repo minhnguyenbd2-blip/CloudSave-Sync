@@ -18,7 +18,7 @@
 
 ## 🔒 Kiểm Tra Toàn Vẹn Tệp Tin (SHA-256)
 ```
-66e052325c851d5f148942398e5e7ba416d3bd3cc9ea5c8b0d094640a684900f  CloudSaveSync-Setup.exe
+5458fb5122ce74784ef9c10bc3919b0149dedc0d1fbd37c7d5324043b4148371  CloudSaveSync-Setup.exe
 ```
 
 ## 🚀 Hướng Dẫn Cài Đặt Cho Người Dùng

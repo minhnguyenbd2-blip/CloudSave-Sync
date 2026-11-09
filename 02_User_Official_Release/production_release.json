@@ -1,8 +1,8 @@
 {
   "version": "V1.0.0",
   "channel": "production",
-  "publishedAt": "2026-11-09T07:20:21.217Z",
-  "sha256": "66e052325c851d5f148942398e5e7ba416d3bd3cc9ea5c8b0d094640a684900f",
+  "publishedAt": "2026-11-09T07:58:24.671Z",
+  "sha256": "5458fb5122ce74784ef9c10bc3919b0149dedc0d1fbd37c7d5324043b4148371",
   "folderPath": "%LOCALAPPDATA%\\CloudSaveSync",
   "changelog": [
     "Bản phát hành chính thức V1.0.0 dành cho người dùng (Windows 10/11 x64 Standalone)",
@@ -12,7 +12,7 @@
     "Đồng bộ tiến trình game tự động qua Google Drive với mã hóa khối AES-256-GCM",
     "Hỗ trợ thông báo cập nhật tự động 1-click khi có phiên bản mới phát hành trên GitHub / Server"
   ],
-  "buildNumber": 127,
+  "buildNumber": 134,
   "downloadUrl": "https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/download/V1.0.0/CloudSaveSync-Setup.exe",
   "installerFile": "CloudSaveSync-Setup.exe"
 }
