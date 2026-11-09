@@ -1,8 +1,8 @@
 {
   "version": "V1.0.0",
   "channel": "production",
-  "publishedAt": "2026-11-09T09:54:19.847Z",
-  "sha256": "a56259c68ab5ca0ada65a9ad6abc57380e2aeef98f0eb1e097005e52cfa615a8",
+  "publishedAt": "2026-11-09T10:13:01.101Z",
+  "sha256": "73a9e3f28f55a6112ec64250e9bc81097e41b27fb0e62e3075f336d91721b87a",
   "folderPath": "%LOCALAPPDATA%\\CloudSaveSync",
   "changelog": [
     "Bản phát hành chính thức V1.0.0 Desktop Native Windows (All-In-One Standalone)",
@@ -13,7 +13,7 @@
     "Hỗ trợ tự động nhận diện phiên bản mới từ Server / GitHub Releases và cập nhật trực tiếp 1-click",
     "Tối ưu khay hệ thống (System Tray) Windows: hỗ trợ chạy ngầm tự động đồng bộ khi thoát game"
   ],
-  "buildNumber": 138,
+  "buildNumber": 142,
   "downloadUrl": "https://github.com/minhnguyenbd2-blip/CloudSave-Sync/releases/download/V1.0.0/CloudSaveSync-Setup.exe",
   "installerFile": "CloudSaveSync-Setup.exe"
 }

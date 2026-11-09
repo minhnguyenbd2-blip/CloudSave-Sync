@@ -84,8 +84,8 @@ graph TD
 
 ### 🔒 Mã Kiểm Tra Toàn Vẹn Tệp Tin (SHA-256 Checksum)
 ```text
-a56259c68ab5ca0ada65a9ad6abc57380e2aeef98f0eb1e097005e52cfa615a8 *CloudSaveSync-Setup.exe
-a56259c68ab5ca0ada65a9ad6abc57380e2aeef98f0eb1e097005e52cfa615a8 *CloudSaveSync-Setup-V1.0.0-Win11-x64.exe
+73a9e3f28f55a6112ec64250e9bc81097e41b27fb0e62e3075f336d91721b87a *CloudSaveSync-Setup.exe
+73a9e3f28f55a6112ec64250e9bc81097e41b27fb0e62e3075f336d91721b87a *CloudSaveSync-Setup-V1.0.0-Win11-x64.exe
 ```
 
 ### 🚀 Hướng Dẫn Cài Đặt & Khởi Chạy
